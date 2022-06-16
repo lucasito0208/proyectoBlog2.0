@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tituloInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio de Sesión"
+        android:textSize="35dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editEmailInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:id="@+id/editPasswordInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="500dp"
+        >
+
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atras"/>
+
+        <Button
+            android:id="@+id/btnInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesion"
+            android:layout_marginLeft="50dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

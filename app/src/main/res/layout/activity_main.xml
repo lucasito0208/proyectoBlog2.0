@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blog"
+        android:textSize="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        >
+
+        <Button
+            android:id="@+id/btnregistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:layout_marginBottom="50dp"/>
+
+        <Button
+            android:id="@+id/btntengo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tengo cuenta" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
